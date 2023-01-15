@@ -40,12 +40,12 @@ Test d'Extraction : une classe executable BWExtraction permet de similer différ
  
  
  ## exécution du projet : 
-  -Rassurez vous d'etre à la racine du projet et tapez les commandes suivantes.
-  -Compilation: 
+  - Rassurez vous d'etre à la racine du projet et tapez les commandes suivantes.
+  - Compilation: 
   ```bash
   javac -d ./bin -classpath "lib/*" $(find src -name "*.java")
   ```
-  -Exécutions:
+  - Exécutions:
 
   ```bash
   plannerTests: java -cp ./bin:./lib/blocksworld.jar test.PlannersTests
