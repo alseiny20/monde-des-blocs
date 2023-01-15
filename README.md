@@ -8,7 +8,7 @@
 
 ## Prérequis
  les librairies de test "tests.jar", "blocksworld.jar" et "bwgenerator.jar" doivent etre ajoutées dans le dossier lib du projet.
-## Mode d'emploie
+## Information 
 
 Package test: contient les classes de test vues en tp et celles du fil rouge.
               Demo* : contient les classes de test vues en tp.
@@ -39,7 +39,7 @@ Test d'Extraction : une classe executable BWExtraction permet de similer différ
                     Possibilité de changer le nombre de block et de pile en modifiant les premieres lignes de la classe.
  
  
- ## exécution du projet : 
+ ## Mode d'emploie : 
   - Rassurez vous d'etre à la racine du projet et tapez les commandes suivantes.
   - Compilation: 
   ```bash
