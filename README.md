@@ -1,11 +1,3 @@
-##Membres Du Groupe :
-
-- DIALLO Abdoulaye Djibril    22112788
-- DJIGUINE Mamady             22110369
-- DIALLO Elhadj Alseiny       22011830
-- SOKHONA    Malick           21910279
-
-
 ## Prérequis
  les librairies de test "tests.jar", "blocksworld.jar" et "bwgenerator.jar" doivent etre ajoutées dans le dossier lib du projet.
 ## Information 
@@ -64,4 +56,11 @@ Test d'Extraction : une classe executable BWExtraction permet de similer différ
   ## Remarque :
 
   Suivant les resultats de sonde pour nos parcourts on remarque que: le parcourt en profondeur trouve bien une solution mais non optimale ,tandisque le parcourt en largeur retourne le plus court plan sans tenir compte du cout mais peut explorer unitulement des noeuds et Dijkstra retourne un plan de coût minimal .
+
+##Membres Du Groupe :
+
+- DIALLO Abdoulaye Djibril    22112788
+- DJIGUINE Mamady             22110369
+- DIALLO Elhadj Alseiny       22011830
+- SOKHONA    Malick           21910279
 
