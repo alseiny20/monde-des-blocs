@@ -35,7 +35,7 @@ Test d'Extraction : une classe executable BWExtraction permet de similer différ
                     Possibilité de changer le nombre de block et de pile en modifiant les premieres lignes de la classe.
 
  ## Pour l'exécution du projet: 
-    Rassurez vous d'etre à la racine du projet et tapez les commandes suivantes.
+    -Rassurez vous d'etre à la racine du projet et tapez les commandes suivantes.
 
     -Compilation: 
     ```bash
@@ -65,7 +65,7 @@ Test d'Extraction : une classe executable BWExtraction permet de similer différ
 
 ##Membres Du Groupe :
 
-DIALLO Abdoulaye Djibril    22112788
-DJIGUINE Mamady             22110369
-DIALLO Elhadj Alseiny       22011830
-SOKHONA    Malick           21910279
+-DIALLO Abdoulaye Djibril    22112788
+-DJIGUINE Mamady             22110369
+-DIALLO Elhadj Alseiny       22011830
+-SOKHONA    Malick           21910279
