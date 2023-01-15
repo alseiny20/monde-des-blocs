@@ -9,6 +9,7 @@
 ## Prérequis
  les librairies de test "tests.jar", "blocksworld.jar" et "bwgenerator.jar" doivent etre ajoutées dans le dossier lib du projet.
 ## Mode d'emploie
+
 Package test: contient les classes de test vues en tp et celles du fil rouge.
               Demo* : contient les classes de test vues en tp.
               les autres classes sont des classes de test du fil rouge.
@@ -36,33 +37,31 @@ Les Vue: les classes de vu (VuePlan, VueSolver) sont des thread s'executant en p
 Test d'Extraction : une classe executable BWExtraction permet de similer différente configuration dont un par defaut suggeré par (@Mr  Bruno Zanuttini) 5 block 5 pile:
                     sur la quel on peut extraire des regles de premisse importante jusqu'a 100%,(si onBB 1-2 alors fixed2 ...).
                     Possibilité de changer le nombre de block et de pile en modifiant les premieres lignes de la classe.
-
-
-
- ## exécution du projet : 
  
-    -Rassurez vous d'etre à la racine du projet et tapez les commandes suivantes.
-    -Compilation: 
-    ```bash
-    javac -d ./bin -classpath "lib/*" $(find src -name "*.java")
-    ```
-    -Exécutions:
+ 
+ ## exécution du projet : 
+  -Rassurez vous d'etre à la racine du projet et tapez les commandes suivantes.
+  -Compilation: 
+  ```bash
+  javac -d ./bin -classpath "lib/*" $(find src -name "*.java")
+  ```
+  -Exécutions:
 
-    ```bash
-    plannerTests: java -cp ./bin:./lib/blocksworld.jar test.PlannersTests
-    solverTests: java -cp ./bin:./lib/blocksworld.jar test.SolversTests
-    BWRegularTests: java -cp ./bin:./lib/blocksworld.jar test.BWRegularTest
-    BWExtraction: java -cp ./bin:./lib/bwgenerator.jar test.BWExtraction
-    ```
-    ## Pour tester les algorithmes
+  ```bash
+  plannerTests: java -cp ./bin:./lib/blocksworld.jar test.PlannersTests
+  solverTests: java -cp ./bin:./lib/blocksworld.jar test.SolversTests
+  BWRegularTests: java -cp ./bin:./lib/blocksworld.jar test.BWRegularTest
+  BWExtraction: java -cp ./bin:./lib/bwgenerator.jar test.BWExtraction
+  ```
+  ## Pour tester les algorithmes
 
-    ```bash
-    reprÃ©sentation: java -cp ./bin:./lib/tests.jar test.tests
-    Experimentation de sonde:  java -cp ./bin:./lib/tests.jar planning.ComparePlanner
-    ```
+  ```bash
+  reprÃ©sentation: java -cp ./bin:./lib/tests.jar test.tests
+  Experimentation de sonde:  java -cp ./bin:./lib/tests.jar planning.ComparePlanner
+  ```
 
 
-    ## Remarque :
+  ## Remarque :
 
-    Suivant les resultats de sonde pour nos parcourts on remarque que: le parcourt en profondeur trouve bien une solution mais non optimale ,tandisque le parcourt en largeur retourne le plus court plan sans tenir compte du cout mais peut explorer unitulement des noeuds et Dijkstra retourne un plan de coût minimal .
+  Suivant les resultats de sonde pour nos parcourts on remarque que: le parcourt en profondeur trouve bien une solution mais non optimale ,tandisque le parcourt en largeur retourne le plus court plan sans tenir compte du cout mais peut explorer unitulement des noeuds et Dijkstra retourne un plan de coût minimal .
 
